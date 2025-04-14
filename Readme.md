@@ -1,5 +1,6 @@
 1. [Brief Motivation Story Behind Project](#Story)
 2. [Project Planning](#Planning)
+3. [Phase I Implementation](#Phase_I)
 
 # Story
 I'm standing in the middle of nowhere, alone—surrounded by garbage spread in every direction.
@@ -101,3 +102,9 @@ Let’s create a system that works—not just for today, but for the next genera
 * README with setup instructions
 * API documentation using DRF’s schema view or Swagger
 * In-code comments and docstrings for maintainability
+
+# Phase_I
+### Challenges
+* I faced difficulty in breaking the project into modular apps. It took me nearly 2 hours to clearly define the 7 apps required for this system. 
+## Solution
+* I analyzed the overall functionality and broke it down into smaller, independent parts. For each part, I created a dedicated app with a single responsibility. This approach gave my project a clean, modular structure. As a result, future scaling and maintenance will be easier, with clearly separated concerns and well-organized architecture.
