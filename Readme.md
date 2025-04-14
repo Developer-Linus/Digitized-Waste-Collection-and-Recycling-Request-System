@@ -1,5 +1,5 @@
-[Brief Motivation Story Behind Project](#Story)
-[Project Planning](#Planning)
+1. [Brief Motivation Story Behind Project](#Story)
+2. [Project Planning](#Planning)
 
 # Story
 I'm standing in the middle of nowhere, alone—surrounded by garbage spread in every direction.
@@ -27,15 +27,10 @@ Let’s create a system that works—not just for today, but for the next genera
 ## PHASE 1: Project Planning & Setup
 **Step 1**: Project Structure & Virtual Environment
 - Set up a virtual environment using pipenv.
-
 - Install Django and other dependencies.
-
-- Create a new Django project.
-
+- Create a new Django project. <br>
 **Step 2**: Core Apps to Create
 - We'll modularize the system into the following apps:
-
-
 * *accounts* – Handles user registration and authentication.
 * *waste* – Manages pickup requests and status.
 * *reports* – Public reporting of illegal dumpsites.
@@ -52,11 +47,8 @@ Let’s create a system that works—not just for today, but for the next genera
 - We’ll use Django’s default user model and extend it using a Profile model for roles:
 
 * Resident
-
 * Recycler
-
 * Admin
-
 * Field Agent
 
 ## PHASE 4: Core Functionality Implementation
@@ -67,7 +59,7 @@ Let’s create a system that works—not just for today, but for the next genera
 
 **Step 7**: Illegal Dumpsite Reporting
 * Public form for reporting illegal dumps with geolocation and image upload.
-* Dashboard for field agents to review and take action.
+* Dashboard for field agents to review and take action. <br>
 **Step 8**: Recycler Matching & Incentives
 - Connect users to nearby recyclers based on location (use geopy).
 - Points system based on items recycled (manual or QR tracking).
@@ -84,7 +76,7 @@ Let’s create a system that works—not just for today, but for the next genera
 ## PHASE 6: API & Mobile-Friendly Frontend
 **Step 10**: REST API for Integration
 - Use Django REST Framework (DRF)
-- APIs for all core features (pickup, reporting, points, etc.)
+- APIs for all core features (pickup, reporting, points, etc.) <br>
 **Step 11**: Responsive Frontend
 - Mobile-first templates using Bootstrap.
 
