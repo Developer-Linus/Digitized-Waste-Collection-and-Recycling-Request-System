@@ -26,21 +26,22 @@ Let’s create a system that works—not just for today, but for the next genera
 # Planning
 ## PHASE 1: Project Planning & Setup
 **Step 1**: Project Structure & Virtual Environment
-- Set up a virtual environment using pipenv.
-- Install Django and other dependencies.
-- Create a new Django project. <br>
+* Set up a virtual environment using pipenv.
+* Install Django and other dependencies.
+* Create a new Django project. 
 **Step 2**: Core Apps to Create
 - We'll modularize the system into the following apps:
-* *accounts* – Handles user registration and authentication.
-* *waste* – Manages pickup requests and status.
-* *reports* – Public reporting of illegal dumpsites.
-* *recycling* – Connects users with recyclers and tracks incentives.
-* *analytics* – Dashboard for admin and municipal reporting.
+* **accounts** – for authentication (users: residents, recyclers, officials)
+* **collection** – handles waste pickup requests
+* **recycling** – connects users to recyclers
+* **reporting** – handles illegal dumpsite reports
+* **incentives** – reward system
+* **dashboard** – analytics and insights
 
 ## PHASE 2: Database Modeling & Admin
 **Step 3**: Design Models
-- Each app will define its own models.py with appropriate foreign key relations.
-- Register models with the Django admin interface for easy management during prototyping.
+* Each app will define its own models.py with appropriate foreign key relations.
+* Register models with the Django admin interface for easy management during prototyping.
 
 ## PHASE 3: User Authentication & Roles
 **Step 5**: Setup Custom User Profiles
@@ -75,8 +76,8 @@ Let’s create a system that works—not just for today, but for the next genera
 
 ## PHASE 6: API & Mobile-Friendly Frontend
 **Step 10**: REST API for Integration
-- Use Django REST Framework (DRF)
-- APIs for all core features (pickup, reporting, points, etc.) <br>
+* Use Django REST Framework (DRF)
+* APIs for all core features (pickup, reporting, points, etc.) <br>
 **Step 11**: Responsive Frontend
 - Mobile-first templates using Bootstrap.
 
